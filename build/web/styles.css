@@ -1,0 +1,64 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 10.02.2026, 12:21:53
+    Author     : schatzsuche
+*/
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 04.02.2026, 15:22:20
+    Author     : User
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+body{
+  font-family: "Pixelify Sans", sans-serif;
+    background-color: #222f3e;
+    color: #c8d6e5;transform: scale(2.5);
+    overflow: hidden;
+}
+
+/*div{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}*/
+a{
+    color: pink;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+button{
+    border: none;
+    background-color: #8395a7;
+    color: #c8d6e5;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #576574;
+  font-family: "Pixelify Sans", sans-serif;
+}
+.pixel-art {
+  image-rendering: pixelated; /* modern standard */
+  image-rendering: crisp-edges; /* fallback for older browsers */
+}
+input{
+    border: none;
+    background-color: #8395a7;
+    color: #c8d6e5;
+    border-radius: 5px;
+    border: 1px solid #576574;
+  font-family: "Pixelify Sans", sans-serif;
+}
