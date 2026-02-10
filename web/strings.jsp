@@ -25,7 +25,6 @@
     %>
     <body>
         <section>
-            <h1>Hello World!</h1>
             <img class="pixel-art" src="assets/strings/<%=test%>.png"  class="pixel-art" alt="Pixel Art" width="200px">
             
             
