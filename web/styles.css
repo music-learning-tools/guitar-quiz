@@ -62,6 +62,7 @@ button:hover{
   image-rendering: crisp-edges;
 }
 input{
+    transition: ease-in-out 0.4s;
     border: none;
     background-color: #8395a7;
     color: #c8d6e5;
