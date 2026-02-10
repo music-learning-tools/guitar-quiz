@@ -42,6 +42,7 @@ section {
     min-height: 100vh;
 }
 button{
+    transition: ease-in-out 0.4s;
     border: none;
     background-color: #8395a7;
     color: #c8d6e5;
@@ -50,9 +51,15 @@ button{
     border: 1px solid #576574;
   font-family: "Pixelify Sans", sans-serif;
 }
+button:hover{
+    transition: ease-in-out 0.3s;
+    background-color: #ee5253;
+    color: #feca57;
+    border: 1px solid #ff6b6b;
+}
 .pixel-art {
-  image-rendering: pixelated; /* modern standard */
-  image-rendering: crisp-edges; /* fallback for older browsers */
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
 }
 input{
     border: none;
@@ -61,4 +68,11 @@ input{
     border-radius: 5px;
     border: 1px solid #576574;
   font-family: "Pixelify Sans", sans-serif;
+}
+input:hover{
+    transition: ease-in-out 0.3s;
+    background-color: #ee5253;
+    color: #feca57;
+    border: 1px solid #ff6b6b;
+    
 }

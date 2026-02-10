@@ -30,9 +30,9 @@
         %>
         <section>
 
-            <h1><span style="color: #8A244B;"><%= stringsInput%></span> is <%= Ergebnis%></h1>
+            <h1><span style="color: #ee5253;"><%= stringsInput%></span> is <%= Ergebnis%></h1>
             <br>
-            <h2> It was <span style="color: #8A244B;"><%= test%></span></h2>
+            <h2> It was <span style="color: #ee5253;"><%= test%></span></h2>
             
             <a href="strings.jsp"><button>back</button></a>
         </section>
