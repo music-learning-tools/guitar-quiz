@@ -1,6 +1,6 @@
 <%-- 
-    Document   : stringsResults
-    Created on : 10.02.2026, 13:05:51
+    Document   : chordsResults
+    Created on : 11.02.2026, 15:18:00
     Author     : User
 --%>
 
@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Learn Guitar</title>
+        <title>Learn Guitar chords</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
@@ -17,13 +17,13 @@
     </head>
     <body>
         <%
-            String[] strings = (String[]) session.getAttribute("strings");
-            int zahl = (int) session.getAttribute("zahl");
+            String[] chords = (String[]) session.getAttribute("chords");
+            int chordzahl = (int) session.getAttribute("chordzahl");
 
-            String stringsInput = request.getParameter("strings");
-            String test = strings[zahl];
+            String chordsInput = request.getParameter("chords");
+            String test = chords[chordzahl];
             String Ergebnis = "";
-            if (stringsInput.equals(test)) {
+            if (chordsInput.equals(test)) {
                 Ergebnis = "True";
             } else {
                 Ergebnis = "False";
@@ -31,11 +31,11 @@
         %>
         <section>
 
-            <h1><span style="color: #ee5253;"><%= stringsInput%></span> is <%= Ergebnis%></h1>
+            <h1><span style="color: #ee5253;"><%= chordsInput%></span> is <%= Ergebnis%></h1>
             <br>
             <h2> It was <span style="color: #ee5253;"><%= test%></span></h2>
 
-            <a href="strings.jsp"><button>back</button></a>
+            <a href="chords.jsp"><button>back</button></a>
         </section>
     </body>
 </html>
