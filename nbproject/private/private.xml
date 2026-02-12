@@ -4,9 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/guitar-quiz/web/index.html</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/guitar-quiz/web/strings.jsp</file>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/guitar-quiz/web/styles.css</file>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/guitar-quiz/web/stringsResults.jsp</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/guitar-quiz/web/chords.jsp</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/guitar-quiz/web/strings.jsp</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/guitar-quiz/web/chordsResults.jsp</file>
         </group>
     </open-files>
 </project-private>
