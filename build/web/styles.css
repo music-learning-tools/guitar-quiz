@@ -13,7 +13,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 */
 /* 
     Created on : 04.02.2026, 15:22:20
-    Author     : User
+    Author     : Etwas
 */
 
 
@@ -26,6 +26,8 @@ body{
     overflow: hidden;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
 }
 
 a{
@@ -48,6 +50,7 @@ button{
     border: 1px solid #576574;
     font-family: "Pixelify Sans", sans-serif;
     box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
 }
 button:hover{
     transition: ease-in-out 0.3s;
@@ -73,5 +76,6 @@ input:hover{
     background-color: #ee5253;
     color: #feca57;
     border: 1px solid #ff6b6b;
+    cursor: pointer;
 
 }
